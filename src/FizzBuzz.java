@@ -1,7 +1,12 @@
 public class FizzBuzz {
 
     public static String output(int a) {
-        return String.valueOf(a);
+        if (a % 3 == 0) {
+            return "Fizz";
+        } else {
+            return String.valueOf(a);
+        }
     }
+
 }
 
