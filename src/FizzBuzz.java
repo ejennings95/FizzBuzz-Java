@@ -1,7 +1,7 @@
 public class FizzBuzz {
 
-    public static int output(int a) {
-        return a;
+    public static String output(int a) {
+        return String.valueOf(a);
     }
 }
 
